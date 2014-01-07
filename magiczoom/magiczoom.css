@@ -1,0 +1,71 @@
+div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+nav ul,li,ol{margin:0;padding:0;list-style:none;}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;}
+table{border-collapse:collapse;border-spacing:0;}
+input,select{vertical-align:middle;}
+textarea{resize:none;}
+img{border:none;margin:0;padding:0;outline:none;}
+a:focus,input:focus,textarea:focus{outline:none;border:0;}
+.clear{clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+aside.productblk-rt dl dd,ul.socialicons2 li a,aside.wishl font a,aside.wishl font a:hover{background:url('../images/product.png') 0 0 no-repeat;}
+article.productblk{width:980px;float:left;border-bottom:1px solid #d9d9d9;padding:24px 0;height:430px;margin:0 0 50px;}
+article.productblk1{width:980px;float:left;height:430px;}
+aside.productblk-lt{width:110px;float:left;}
+aside.productblk-lt ul{width:100px;float:left;}
+aside.productblk-lt ul li{width:98px;float:left;height:98px;border:1px solid #d9d9d9;margin:10px 0 0;}
+aside.productblk-lt ul li:first-child{margin:0;}
+aside.productblk-ct{width:390px;float:left;}
+aside.productblk-rt{width:288px;float:left;border-right:1px solid #d9d9d9;padding:0 0 0 20px;height:430px;}
+aside.productblk-rt h5{width:288px;float:left;color:#09c400;font-family:'museo500';font-size:22px;font-weight:500;line-height:25px;padding:12px 0 18px;}
+aside.productblk-rt p{color:#666;font:400 14px 'Bitter', serif;line-height:20px;padding:0 20px 0 0;}
+aside.productblk-rt h5 span{font:400 16px 'Bitter', serif;color:#000;}
+aside.productblk-rt dfn{width:288px;float:left;color:#000;font:400 24px 'Bitter', serif;padding:0 0 10px;}
+aside.productblk-rt dl{width:288px;float:left;padding:0 0 20px;}
+aside.productblk-rt dl dt{width:89px;float:left;margin:1px 11px 0 0;}
+aside.productblk-rt dl dd{width:140px;float:left;height:33px;color:#fff;font:700 18px 'Bitter', serif;text-align:center;background-position:-274px -206px;padding:7px 0 0;}
+aside.productblk-rt dl dd a{color:#fff;text-decoration:none;}
+aside.productblk-rte{width:151px;float:left;padding:12px 0 0 20px;}
+aside.productblk-rte p{font:400 14px 'Bitter', serif;color:#000;line-height:20px;padding:0 0 10px;}
+aside.productblk-rte p span{font:400 14px 'Bitter', serif;color:#666;}
+aside.wishl{width:288px;float:left;border:1px solid #d9d9d9;border-width:1px 0;padding:12px 0 10px;margin:0 0 20px;}
+ul.socialicons2{float:left;}
+ul.socialicons2 li{float:left;height:20px;}
+ul.socialicons2 li a{float:left;height:20px;text-indent:-99999px;}
+ul.socialicons2 li.facebook2 a{width:30px;background-position:-616px -226px;}
+ul.socialicons2 li.twitter2 a{width:29px;background-position:-646px -226px;}
+ul.socialicons2 li.pinterest2 a{width:29px;background-position:-675px -226px;}
+ul.socialicons2 li.google2 a{width:30px;background-position:-704px -226px;}
+aside.wishl font a{float:left;color:#333;font:400 12px 'Bitter', serif;background-position:-616px 0;text-decoration:underline;padding:2px 0 0 27px;width:93px;height:19px;margin-left:30px;}
+aside.wishl font a:hover{float:left;color:#333;font:400 12px 'Bitter', serif;background-position:-616px -25px;text-decoration:none;padding:2px 0 0 27px;width:93px;height:19px;}
+
+/* Style of the small image link */
+.MagicZoom,.MagicZoom:hover{display:inline-block;outline:0 !important;font-size:0 !important;line-height:100% !important;direction:ltr;max-width:100%;}
+/* Style of the main image */
+.MagicZoom img{border:0 !important;margin:0 !important;outline:0 !important;padding:0 !important;height:auto;font-size:0 !important;}
+.MagicZoom > img{width:100%;font-size:0 !important;}
+.MagicZoom.magic-for-ie8 > img{max-width:none !important;font-size:0 !important;}
+.MagicZoom.magic-for-ie7 > img,.MagicZoom.magic-for-ie5 img{width:auto;font-size:0 !important;}
+td > .MagicZoom > img, td > .MagicZoom.magic-for-ie8 > img{max-width:none;width:auto;font-size:0 !important;}
+/* Style of the hint text and image */
+.MagicZoomHint{background:url('graphics/hint.gif') no-repeat 2px 50%;color:#444;font-family:'museo300';font-size:12px;font-weight:300;line-height:24px;margin:0;min-height:24px;padding:2px 2px 2px 20px !important;text-align:left;text-decoration:none;}
+/* Style of loading message and icon shown during load */
+.MagicZoomLoading{background:#fff url(graphics/loader.gif) no-repeat 2px 50%;border:1px solid #ccc;color:#444;font-family:'museo300';font-size:12px;font-weight:300;line-height:1.5em;margin:0;padding:4px 4px 4px 24px !important;text-align:left;text-decoration:none;}
+/* Style to hide external title on a page. Only needed for #id method */
+.MagicZoomExternalTitle{display:none;font-size:0 !important;}
+.magic-temporary-img img{max-height:none !important;max-width:none !important;font-size:0 !important;}
+/* Style of the zoomed image */
+.MagicZoomBigImageCont{background:#fff;border:1px solid #d9d9d9;-webkit-transition:none !important;-moz-transition:none !important;transition:none !important;font-size:0 !important;}
+.MagicZoomBigImageCont img{max-width:none !important;max-height:none !important;height:auto !important;width:auto !important;font-size:0 !important;}
+/* Style of text on the zoomed image */
+.MagicZoomHeader{background:#666;color:#fff;font-size:0 !important;line-height:normal !important;text-align:center !important;}
+/* Style of square magnify area under the cursor */
+.MagicZoomPup{background:#dadad1;border:1px solid #aaa;cursor:move;font-size:0 !important;}
+/* Style of loading message and icon shown during load */
+.MagicZoomLoading{background:#fff url('graphics/loader.gif') no-repeat 2px 50%;border:1px solid #ccc;color:#444;font-family:'museo300';font-size:12px;font-weight:300;line-height:1.5em;margin:0;padding:4px 4px 4px 24px !important;text-align:left;text-decoration:none;}
+/* Style of shadow effect behind zoomed image */
+.MagicBoxShadow{-moz-box-shadow:3px 3px 4px #888;-webkit-box-shadow:3px 3px 4px #888;box-shadow:3px 3px 4px #888;border-collapse:separate;/* For IE 5.5 - 7 */filter:progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#888') !important;/* For IE 8 */-ms-filter:"progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#888')" !important;font-size:0 !important;}
+/* Style of glow effect behind zoomed image */
+.MagicBoxGlow{-moz-box-shadow:0 0 4px 4px #888;-webkit-box-shadow:0 0 4px 4px #888;box-shadow:0 0 4px 4px #888;border-collapse:separate;/* For IE 5.5 - 7 */filter:progid:DXImageTransform.Microsoft.Glow(Strength=4, Color='#888') !important;/* For IE 8 */-ms-filter:"progid:DXImageTransform.Microsoft.Glow(Strength=4, Color='#888')" !important;font-size:0 !important;}

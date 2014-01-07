@@ -1,0 +1,147 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="GreenOBagWeb.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8"/>
+    <title>Green O Bag - Home</title>
+    <%--<script src="/js/html5.js"></script>--%>
+    <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen"/> 
+    <%--<script type="text/javascript" src="/js/menu.js"></script>   --%>
+</head>
+<body>
+    <form id="Master_Form" runat="server">
+        <!-- Section main starts here -->
+        <section class="main">
+            <!-- Section wrapper starts here -->
+            <section class="wrapper">
+                <header>
+                    <h1><a href="../Home/index.aspx" title="Green Bag">Green Bag</a></h1>
+                    <ul class="nav" id="chromemenu">
+                        <li><a href="../Collection/GreenOMart-Collections.aspx" title="GreenOMart" style="padding-left: 49px; width: 195px;" rel="ddl_Mart">GreenOMart</a></li>
+                        <li><a href="../Collection/GreenOGift-Collections.aspx" title="GreenOGift" style="padding-left: 57px; width: 187px;" rel="ddl_Gift">GreenOGift</a></li>
+                        <li><a href="#" title="GreenOExport">GreenOExport</a></li>
+                    </ul>
+                    <!--1st drop down menu -->                                                   
+                    <div id="ddl_Mart" class="dropmenudiv" runat="server">
+                        <div class="bgtop">&nbsp;</div>
+                        <div class="bgmdl">
+                            <a href="#" title="Laptop Bags">Laptop Bags</a>
+                            <a href="#" title="Shopping Bags">Shopping Bags</a>
+                            <a href="greenomart-description.html" title="Hand Bags">Hand Bags</a>
+                            <a href="#" title="Tote Bags">Tote Bags</a>
+                            <a href="#" title="Mens Bags">Mens Bags</a>
+                            <a href="#" title="Designer Bags">Designer Bags</a>
+                            <a href="#" title="Wallets">Wallets</a>
+                            <a href="#" title="Utility Bags">Utility Bags</a>
+                        </div>
+                        <div class="bgbtm">&nbsp;</div>
+                    </div>
+                    <!--2nd drop down menu -->
+                    <div id="ddl_Gift" class="dropmenudiv" runat="server">
+                        <div class="bgtop">&nbsp;</div>
+                        <div class="bgmdl">
+                            <a href="#" title="Corporate">Corporate</a>
+                            <a href="#" title="Wedding">Wedding</a>
+                            <a href="greenogift-description.html" title="Festive">Festive</a>
+                            <a href="#" title="Utility">Utility</a>
+                        </div>
+                        <div class="bgbtm">&nbsp;</div>
+                    </div>
+                    <script type="text/javascript">
+                        cssdropdown.startchrome("chromemenu")
+                    </script>
+                </header>
+                <article class="submenu" style="margin-bottom:3px;">
+                    <ul class="submenulink" id="ul_TopMenu">
+                        <li><a href="#" title="About Us">About Us</a></li>
+                        <li><a href="#" title="Offers">Offers</a></li>
+                        <li><a href="#" title="New Arrival/Range">New Arrival/Range</a></li>
+                        <li><a href="#" title="Contact Us">Contact Us</a></li>
+                    </ul>
+                    <ul class="icons">
+                        <li class="gift"><a href="#" title="Gift Voucher">Gift Voucher</a></li>
+                        <li class="toys">
+                            <%--<a href="../User/Login.aspx" title="Login">Login</a>--%>
+                            <asp:LinkButton ID="lnk_Userbtn" runat="server" OnClick="lnk_Userbtn_Click" Text="Login">LinkButton</asp:LinkButton>
+                        </li>
+                        <li class="heart"><a href="#" title="WishList" id="lnk_Favourite" runat="server">WishList</a></li>
+                        <li class="shopping"><a href="../Shopping/Shopping-Bag.aspx" title="Shopping Cart">Shopping Cart</a></li>
+                    </ul>
+                </article>
+            </section>
+            <!-- Section wrapper ends here -->
+
+            <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <!-- Section footlink starts here -->
+            <section class="footlink" style="margin-top: 0;">
+                <section class="wrapper">
+                    <ul class="footerlinks">
+                        <li><a href="../Index.aspx" title="Home">Home</a></li>
+                        <li class="slash">/</li>
+                        <li><a href="#" title="About Us">About Us</a></li>
+                        <li class="slash">/</li>
+                        <li><a href="#" title="Enquiry">Enquiry</a></li>
+                        <li class="slash">/</li>
+                        <li><a href="#" title="Events">Events</a></li>
+                        <li class="slash">/</li>
+                        <li><a href="#" title="Certification">Certification</a></li>
+                        <li class="slash">/</li>
+                        <li><a href="#" title="Global Presence">Global Presence</a></li>
+                        <li class="slash">/</li>
+                        <li><a href="#" title="Careers">Careers</a></li>
+                        <li class="slash">/</li>
+                        <li><a href="#" title="Shipping &amp; Tracking">Shipping &amp; Tracking</a></li>
+                        <li class="slash">/</li>
+                        <li><a href="#" title="Payment Options">Payment Options</a></li>
+                        <li class="slash">/</li>
+                        <li><a href="#" title="FAQ’s">FAQ’s</a></li>
+                        <li class="slash">/</li>
+                        <li style="padding-right: 0;"><a href="#" title="Contact Us">Contact Us</a></li>
+                    </ul>
+                </section>
+            </section>
+            <!-- Section footlink ends here -->
+            <!-- Section footlink starts here -->
+            <section class="footlink" style="border-top: 0; margin-top: 0;">
+                <section class="wrapper">
+                    <article class="btmblk">
+                        <aside class="stay">
+                            <h4>Stay Connected</h4>
+                            <ul class="socialicons">
+                                <li class="facebook"><a href="#" title="Facebook">Facebook</a></li>
+                                <li class="twitter"><a href="#" title="Twitter">Twitter</a></li>
+                                <li class="pinterest"><a href="#" title="Pinterest">Pinterest</a></li>
+                                <li class="google"><a href="#" title="Google+">Google+</a></li>
+                            </ul>
+                        </aside>
+                        <aside class="shop">
+                            <h4>Shop Secure</h4>
+                            <figure>Shop Secure</figure>
+                        </aside>
+                        <aside class="about">
+                            <h4>About GreenOBag</h4>
+                            <h5><a href="../Home/Index.aspx" title="Green Bag">Green Bag</a></h5>
+                            <div class="clear"></div>
+                            <p>Green O Bag’ is a venture by Green Packaging Industries Private Limited, part of one of the oldest and most diversified Business houses in Kolkata, India. Having been around for over 30 years, we can assure quality products and services to you not once but always.</p>
+                        </aside>
+                    </article>
+                </section>
+            </section>
+            <!-- Section footlink ends here -->
+            <!-- Section wrapper starts here -->
+            <section class="wrapper">
+                <footer>
+                    <h6>&copy; <a href="http://www.GreenOBag.com" target="_blank">GreenOBag.com</a> - All rights reserved / <a href="#" title="Privacy Policy">Privacy Policy</a> / <a href="#" title="Terms of Use">Terms of Use</a></h6>
+                </footer>
+            </section>
+            <!-- Section wrapper ends here -->
+        </section>
+    </form>
+    <link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css' />
+    
+</body>
+</html>
